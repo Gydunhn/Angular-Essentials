@@ -1,0 +1,77 @@
+{
+    "name": "angular-essentials",
+    "displayName": "Angular-Essentials",
+    "description": "Angular essential extensions for visual studio code",
+    "icon": "img/essentials.png",
+    "galleryBanner": {
+        "color": "#53595e",
+        "theme": "dark"
+    },
+    "license": "LICENSE.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Gydunhn/Typescript-Essentials.git"
+    },
+    "keywords": [
+        "VSC",
+        "VSCode",
+        "Visual Studio",
+        "VSC Essentials",
+        "Javascript",
+        "Lint",
+        "ESLint",
+        "jshint",
+        "npm",
+        "Intellisense",
+        "Visual Studio IntelliCode",
+        "IntelliCode",
+        "ES6",
+        "Snippets",
+        "JavaScript (ES6) code snippets",
+        "Javascript-Essentials",
+        "TypeScript",
+        "TSLint",
+        "Hero",
+        "TypeScript Hero",
+        "TypeScript Importer",
+        "Typescript-Essentials",
+        "Angular",
+        "Angular Language Service",
+        "inline",
+        "angular2-inline",
+        "Nx",
+        "Console",
+        "Nx Console",
+        "Debugger",
+        "Firefox",
+        "Debugger for Firefox",
+        "Edge",
+        "Debugger for Microsoft Edge",
+        "Chrome",
+        "Debugger for Chrome",
+        "Essentials",
+        "Gydunhn",
+        "TeamElite",
+        "Team Elite"
+    ],
+    "version": "0.0.1",
+    "publisher": "Gydunhn",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "Angular.ng-template",
+        "natewallace.angular2-inline",
+        "nrwl.angular-console",
+        "johnpapa.pwa-tools",
+        "esbenp.prettier-vscode",
+        "firefox-devtools.vscode-firefox-debug",
+        "msjsdiag.debugger-for-edge",
+        "msjsdiag.debugger-for-chrome",
+        "Gydunhn.javascript-essentials",
+        "Gydunhn.typescript-essentials"
+    ]
+}
