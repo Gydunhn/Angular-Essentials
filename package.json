@@ -10,7 +10,7 @@
     "license": "LICENSE.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Gydunhn/Typescript-Essentials.git"
+        "url": "https://github.com/Gydunhn/Angular-Essentials.git"
     },
     "keywords": [
         "VSC",
@@ -54,7 +54,7 @@
         "TeamElite",
         "Team Elite"
     ],
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "Gydunhn",
     "engines": {
         "vscode": "^1.44.0"
