@@ -54,7 +54,7 @@
         "TeamElite",
         "Team Elite"
     ],
-    "version": "0.0.5",
+    "version": "0.1.0",
     "publisher": "Gydunhn",
     "engines": {
         "vscode": "^1.44.0"
@@ -72,6 +72,7 @@
         "msjsdiag.debugger-for-edge",
         "msjsdiag.debugger-for-chrome",
         "Gydunhn.javascript-essentials",
-        "Gydunhn.typescript-essentials"
+        "Gydunhn.typescript-essentials",
+        "odubuc.mysql-inline-decorator"
     ]
 }
