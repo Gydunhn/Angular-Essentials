@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0] - 2020-04-29
+
+### Added
+
+* mysql-inline-decorator Extension.
+
 ## [0.0.5] - 2020-04-27
 
 ### Fixed
