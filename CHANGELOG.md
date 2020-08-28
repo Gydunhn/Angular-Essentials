@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.2] - 2020-08-28
+
+### Changed
+
+* the KeyWords were modified
+
+### Added
+
+* a Prettier Config, in the Readme File.
+
 ## [0.1.1] - 2020-04-29
 
 ### Fixed
@@ -52,6 +62,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/Angular-Essentials/tree/develop
+[0.1.2]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.2
 [0.1.1]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.1
 [0.1.0]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.0
 [0.0.5]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.0.5
