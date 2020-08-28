@@ -10,6 +10,17 @@ The [Angular Essentials extension pack] was made to automate and standardize the
 
 See the [CHANGELOG](CHANGELOG.md) for the latest changes
 
+## Config
+
+Add the followinlines to your package.json file:
+
+```json
+"prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+},
+```
+
 ## Note
 
 The [VSC-Essentials] project was used as a template for this one.

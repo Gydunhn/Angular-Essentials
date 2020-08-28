@@ -51,10 +51,9 @@
         "Debugger for Chrome",
         "Essentials",
         "Gydunhn",
-        "TeamElite",
-        "Team Elite"
+        "Elite"
     ],
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "Gydunhn",
     "engines": {
         "vscode": "^1.44.0"
