@@ -2,7 +2,7 @@
 
 [![Badge for version for Visual Studio Code extension](https://vsmarketplacebadge.apphb.com/version-short/Gydunhn.angular-essentials.svg?color=blue&style=?style=for-the-badge&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.angular-essentials) [![Installs](https://vsmarketplacebadge.apphb.com/installs-short/Gydunhn.angular-essentials.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.angular-essentials) [![Downloads](https://vsmarketplacebadge.apphb.com/downloads-short/Gydunhn.angular-essentials.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.angular-essentials) [![StarRating](https://vsmarketplacebadge.apphb.com/rating-star/Gydunhn.angular-essentials.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.angular-essentials) [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/Gydunhn.angular-essentials.svg?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.angular-essentials)
 
-This extension pack for Visual Studio Code adds extensions that are useful for Angular projects. I reserve the right to update the extensions pack contents up to my own discretion.
+This extension pack for Visual Studio Code adds extensions that are useful for Angular projects. I reserve the right to update the extensions pack contents up to my own discretion. This extension is for my personal use, I think it's great if it works for other people too.
 
 ## Reasons
 
