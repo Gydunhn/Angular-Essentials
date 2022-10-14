@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.4] - 2022-10-14
+
+### Removed
+
+* Debugger for Chrome, This extension has been deprecated as Visual Studio Code now has a bundled JavaScript Debugger that covers the same functionality. You can safely un-install this extension and you will still be able to have the functionality you need.
+* Debugger for Edge, Deprecated.
+* Javascript-Essentials, Since it is now contained by the Typescript-Essentials extension. Refactoring.
+* Debugger for Firefox, Since all this time it was contained by the Javascript-Essentials extension. Refactoring.
+
 ## [0.1.3] - 2020-10-06
 
 ### Changed
@@ -68,6 +77,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/Angular-Essentials/tree/develop
+[0.1.4]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.4
 [0.1.3]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.3
 [0.1.2]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.2
 [0.1.1]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.1

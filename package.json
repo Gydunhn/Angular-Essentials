@@ -67,10 +67,6 @@
         "nrwl.angular-console",
         "johnpapa.pwa-tools",
         "esbenp.prettier-vscode",
-        "firefox-devtools.vscode-firefox-debug",
-        "msjsdiag.debugger-for-edge",
-        "msjsdiag.debugger-for-chrome",
-        "Gydunhn.javascript-essentials",
         "Gydunhn.typescript-essentials",
         "odubuc.mysql-inline-decorator"
     ]
