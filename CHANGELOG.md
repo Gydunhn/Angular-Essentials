@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.5] - 2023-01-10
+
+### Added
+
+* Angular Schematics Extension
+
+### Changed
+
+* Updates the images of the Badges
+
 ## [0.1.4] - 2022-10-14
 
 ### Removed
@@ -77,6 +87,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/Angular-Essentials/tree/develop
+[0.1.5]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.5
 [0.1.4]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.4
 [0.1.3]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.3
 [0.1.2]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.2
