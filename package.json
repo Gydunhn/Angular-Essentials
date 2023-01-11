@@ -53,7 +53,7 @@
         "Gydunhn",
         "Elite"
     ],
-    "version": "0.1.4",
+    "version": "0.1.5",
     "publisher": "Gydunhn",
     "engines": {
         "vscode": "^1.35.0"
@@ -68,6 +68,7 @@
         "johnpapa.pwa-tools",
         "esbenp.prettier-vscode",
         "Gydunhn.typescript-essentials",
-        "odubuc.mysql-inline-decorator"
+        "odubuc.mysql-inline-decorator",
+        "cyrilletuzi.angular-schematics"
     ]
 }
