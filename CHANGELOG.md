@@ -13,9 +13,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * Angular Schematics Extension
 
-### Changed
+### Removed
 
-* Updates the images of the Badges
+* ReadMe Badges
 
 ## [0.1.4] - 2022-10-14
 
