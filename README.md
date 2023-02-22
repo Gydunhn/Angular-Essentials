@@ -2,43 +2,285 @@
 
 [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/Gydunhn.angular-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.angular-essentials) [![Installs](https://flat.badgen.net/vs-marketplace/i/Gydunhn.angular-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.angular-essentials) [![Downloads](https://flat.badgen.net/vs-marketplace/d/Gydunhn.angular-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.angular-essentials) [![Rating](https://flat.badgen.net/vs-marketplace/rating/Gydunhn.angular-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.angular-essentials)
 
-This extension pack for Visual Studio Code adds extensions that are useful for Angular projects. I reserve the right to update the extensions pack contents up to my own discretion. This extension is for my personal use, I think it's great if it works for other people too.
+This extension pack for Visual Studio Code adds extensions that are convenient and useful for any development (regardless of language). I reserve the right to update the content of the extension pack at my own discretion.
+
+This **BASIC** version of the extension pack is for a series of very specific projects in which I am currently involved; projects with multiple repositories that share the same stack of technologies transversally.
 
 ## Reasons
 
-The [Angular Essentials extension pack] was made to automate and standardize the installation phase of the essential Angular extensions for Visual Studio Code every time a new member joins the team, or one of them restores a laptop, or exchanges it for a new one.
+The [Angular Essentials extension pack] AFP PlanVital Special Edition was made to automate and standardize the setup phase of the development environment for Visual Studio Code, to have the same set of extensions, use the same id settings and file format everyone works on together.
 
 See the [CHANGELOG](CHANGELOG.md) for the latest changes
 
-## Config
+## **settings.json**
 
-Add the followinlines to your package.json file:
+It is imperative that the settings be added to settings.json, inside the ".vscode" folder, and that this file be inside Git version control for this extension pack to work correctly.
 
-```json
-"prettier": {
-    "singleQuote": true,
-    "trailingComma": "all"
-},
+``` json
+{
+	/**
+     * Core Basic PlanVital Essentials Config
+     */
+	"extensions.ignoreRecommendations": true,
+	"editor.tabCompletion": "on",
+	"editor.showDeprecated": true,
+	"editor.rulers": [
+		80
+	],
+	"editor.guides.bracketPairs": "active",
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"workbench.tree.expandMode": "singleClick",
+	"workbench.tree.renderIndentGuides": "always",
+	"editor.formatOnSave": true,
+	"[markdown]": {
+		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[xml]": {
+		"editor.defaultFormatter": "DotJoshJohnson.xml"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"[less]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"javascript.format.enable": true,
+	"javascript.format.semicolons": "insert",
+	"javascript.preferences.quoteStyle": "single",
+	"typescript.format.enable": true,
+	"typescript.format.semicolons": "insert",
+	"typescript.preferences.quoteStyle": "single",
+	"css.hover.documentation": true,
+	"css.lint.important": "warning",
+	"css.lint.importStatement": "warning",
+	"less.hover.documentation": true,
+	"less.lint.important": "warning",
+	"less.lint.importStatement": "warning",
+	"scss.hover.documentation": true,
+	"scss.lint.important": "warning",
+	"scss.lint.importStatement": "warning",
+	"html.hover.documentation": true,
+	"markdownlint.config": {
+		"default": true,
+		"MD001": false,
+		"MD010": false,
+		"MD024": false,
+		"MD025": false
+	},
+	/**
+     * * Core Detailed PlanVital Essentials Config
+     */
+	"todo-tree.tree.showCountsInTree": true,
+	"todo-tree.general.statusBar": "top three",
+	"todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+	"todo-tree.general.tags": [
+		"TODO",
+		"FIXME",
+		"FIXIT",
+		"FIX",
+		"BUG"
+	],
+	"todo-tree.general.tagGroups": {
+		"FIXME": [
+			"FIXME",
+			"FIXIT",
+			"FIX",
+			"BUG",
+		]
+	},
+	"todo-tree.highlights.customHighlight": {
+		"TODO": {
+			"gutterIcon": true,
+			"icon": "tasklist",
+			"iconColour": "#FF8C00",
+			"type": "tag",
+			"background": "#CF7200",
+			"foreground": "#FFFFFF",
+			"fontWeight": "bold"
+		},
+		"FIXME": {
+			"gutterIcon": true,
+			"icon": "tools",
+			"iconColour": "#00FF00",
+			"type": "tag",
+			"background": "#008000",
+			"foreground": "#FFFF00",
+			"fontWeight": "bold"
+		}
+	},
+	"better-comments.multilineComments": true,
+	"better-comments.tags": [
+		{
+			"tag": "!",
+			"color": "#FF2D00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": true,
+			"italic": false
+		},
+		{
+			"tag": "?",
+			"color": "#3498DB",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "//",
+			"color": "#474747",
+			"strikethrough": true,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "todo",
+			"color": "#FF8C00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "fixme",
+			"color": "#008000",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "fixit",
+			"color": "#008000",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "fix",
+			"color": "#008000",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "bug",
+			"color": "#008000",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "*",
+			"color": "#98C379",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": true,
+			"italic": false
+		}
+	],
+	/**
+     * * Official Full PlanVital Essentials Config
+     */
+	"editor.stickyScroll.enabled": true,
+	"terminal-in-status-bar.statusBarAlignment": "right",
+	"terminal-in-status-bar.statusBarPriority": 10000,
+	"git-graph.commitDetailsView.location": "Docked to Bottom",
+	"git-graph.contextMenuActionsVisibility": {
+		"remoteBranch": {
+			"checkout": false,
+			"cherrypick": false,
+			"createBranch": false,
+			"createPullRequest": false,
+			"delete": false,
+			"drop": false,
+			"merge": false,
+			"pull": false,
+			"rebase": false,
+			"reset": false,
+			"revert": false,
+		},
+		"branch": {
+			"checkout": false,
+			"cherrypick": false,
+			"createBranch": false,
+			"createPullRequest": false,
+			"delete": false,
+			"drop": false,
+			"merge": false,
+			"push": false,
+			"rename": false,
+			"rebase": false,
+			"reset": false,
+			"revert": false,
+		},
+		"commit": {
+			"checkout": false,
+			"cherrypick": false,
+			"createBranch": false,
+			"drop": false,
+			"merge": false,
+			"rebase": false,
+			"reset": false,
+			"revert": false,
+		}
+	}
+}
 ```
-
-## Note
-
-The [VSC-Essentials] project was used as a template for this one.
 
 ## Included
 
 This extension pack includes the following extensions:
 
-| Extension                   | Stats                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Angular Language Service    | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/Angular.ng-template?color=blue)](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template) [![Installs](https://flat.badgen.net/vs-marketplace/i/Angular.ng-template?color=blue)](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template) [![Rating](https://flat.badgen.net/vs-marketplace/rating/Angular.ng-template?color=blue)](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)                                                                                                             |
-| angular2-inline             | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/natewallace.angular2-inline?color=blue)](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline) [![Installs](https://flat.badgen.net/vs-marketplace/i/natewallace.angular2-inline?color=blue)](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline) [![Rating](https://flat.badgen.net/vs-marketplace/rating/natewallace.angular2-inline?color=blue)](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline)                                                             |
-| Nx Console                  | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/nrwl.angular-console?color=blue)](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console) [![Installs](https://flat.badgen.net/vs-marketplace/i/nrwl.angular-console?color=blue)](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console) [![Rating](https://flat.badgen.net/vs-marketplace/rating/nrwl.angular-console?color=blue)](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)                                                                                                       |
-| PWA Tools                   | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/johnpapa.pwa-tools?color=blue)](https://marketplace.visualstudio.com/items?itemName=johnpapa.pwa-tools) [![Installs](https://flat.badgen.net/vs-marketplace/i/johnpapa.pwa-tools?color=blue)](https://marketplace.visualstudio.com/items?itemName=johnpapa.pwa-tools) [![Rating](https://flat.badgen.net/vs-marketplace/rating/johnpapa.pwa-tools?color=blue)](https://marketplace.visualstudio.com/items?itemName=johnpapa.pwa-tools)                                                                                                                   |
-| Prettier - Code formatter   | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/esbenp.prettier-vscode?color=blue)](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) [![Installs](https://flat.badgen.net/vs-marketplace/i/esbenp.prettier-vscode?color=blue)](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) [![Rating](https://flat.badgen.net/vs-marketplace/rating/esbenp.prettier-vscode?color=blue)](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)                                                                                           |
-| Typescript-Essentials       | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/Gydunhn.typescript-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.typescript-essentials) [![Installs](https://flat.badgen.net/vs-marketplace/i/Gydunhn.typescript-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.typescript-essentials) [![Rating](https://flat.badgen.net/vs-marketplace/rating/Gydunhn.typescript-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.typescript-essentials)                                                 |
-| mysql-inline-decorator  | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/odubuc.mysql-inline-decorator?color=blue)](https://marketplace.visualstudio.com/items?itemName=odubuc.mysql-inline-decorator) [![Installs](https://flat.badgen.net/vs-marketplace/i/odubuc.mysql-inline-decorator?color=blue)](https://marketplace.visualstudio.com/items?itemName=odubuc.mysql-inline-decorator) [![Rating](https://flat.badgen.net/vs-marketplace/rating/odubuc.mysql-inline-decorator?color=blue)](https://marketplace.visualstudio.com/items?itemName=odubuc.mysql-inline-decorator)                                                 |
-| Angular Schematics  | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/cyrilletuzi.angular-schematics?color=blue)](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics) [![Installs](https://flat.badgen.net/vs-marketplace/i/cyrilletuzi.angular-schematics?color=blue)](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics) [![Rating](https://flat.badgen.net/vs-marketplace/rating/cyrilletuzi.angular-schematics?color=blue)](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics)                                                 |
+* the following extensions are included in this package:
+  * Markdown All in One
+  * markdownlint
+  * XML Tools
+  * Format in context menus
+  * Todo Tree
+  * Better Comments
+  * Git Graph
+  * ESLint
+  * Debugger for Firefox
+  * TypeScript Importer
+  * Angular Language Service
+  * angular2-inline
 
-[VSC-Essentials]: https://github.com/Gydunhn/VSC-Essentials
 [Angular Essentials extension pack]: https://marketplace.visualstudio.com/items?itemName=Gydunhn.angular-essentials
