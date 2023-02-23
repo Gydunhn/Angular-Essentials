@@ -41,7 +41,7 @@
         "AFP PlanVital",
         "GENERALI"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "Gydunhn",
     "engines": {
         "vscode": "^1.35.0"
@@ -61,6 +61,8 @@
         "firefox-devtools.vscode-firefox-debug",
         "pmneo.tsimporter",
         "Angular.ng-template",
-        "natewallace.angular2-inline"
+        "natewallace.angular2-inline",
+        "bierner.markdown-emoji",
+        "eamodio.gitlens"
     ]
 }
