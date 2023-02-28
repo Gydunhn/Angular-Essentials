@@ -41,7 +41,7 @@
         "AFP PlanVital",
         "GENERALI"
     ],
-    "version": "1.0.1",
+    "version": "1.0.4",
     "publisher": "Gydunhn",
     "engines": {
         "vscode": "^1.35.0"
@@ -52,17 +52,14 @@
     "extensionPack": [
         "yzhang.markdown-all-in-one",
         "DavidAnson.vscode-markdownlint",
+        "bierner.markdown-emoji",
         "DotJoshJohnson.xml",
         "lacroixdavid1.vscode-format-context-menu",
         "Gruntfuggly.todo-tree",
         "aaron-bond.better-comments",
-        "mhutchie.git-graph",
         "dbaeumer.vscode-eslint",
-        "firefox-devtools.vscode-firefox-debug",
-        "pmneo.tsimporter",
         "Angular.ng-template",
-        "natewallace.angular2-inline",
-        "bierner.markdown-emoji",
+        "firefox-devtools.vscode-firefox-debug",
         "eamodio.gitlens"
     ]
 }
