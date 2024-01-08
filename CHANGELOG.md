@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Removed (they are removed due to the project restructuring, and moved to the package: "Essentials Extensions for Angular Developers")
+
+* Nx Console, nrwl.
+* Prettier - Code formatter, prettier.io.
+* mysql-inline-decorator, odubuc.
+
 ## [0.1.6] - 2023-02-01
 
 ### Re-Added

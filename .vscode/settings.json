@@ -1,27 +1,87 @@
 {
-    "editor.bracketPairColorization.enabled": true,
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.guides.bracketPairs": "active",
-    "editor.guides.indentation": true,
-    "editor.tabCompletion": "on",
-    "editor.rulers": [
-        80
-    ],
-    "workbench.tree.indent": 6,
-    "workbench.tree.expandMode": "singleClick",
-    "workbench.tree.renderIndentGuides": "always",
-    "workbench.iconTheme": "material-icon-theme",
-    "scss.lint.important": "warning",
-    "scss.lint.importStatement": "warning",
-    "gitlens.blame.avatars": true,
-    "gitlens.views.repositories.avatars": true,
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[markdown]": {
-        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
-    },
+  // VSCode Settings
+  "extensions.ignoreRecommendations": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.indentation": true,
+  "editor.indentSize": 2,
+  "editor.tabCompletion": "on",
+  "editor.showDeprecated": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "editor.rulers": [
+    140
+  ],
+  "editor.formatOnSave": true,
+  "eslint.enable": true,
+  "eslint.format.enable": false,
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.codeAction.disableRuleComment": {
+    "enable": true,
+    "location": "separateLine",
+    "commentStyle": "line"
+  },
+  // Code & Formatter Settings
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "javascript.format.enable": true,
+  "javascript.format.semicolons": "insert",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.format.enable": true,
+  "typescript.format.semicolons": "insert",
+  "typescript.preferences.quoteStyle": "single",
+  "css.hover.documentation": true,
+  "css.lint.important": "warning",
+  "less.hover.documentation": true,
+  "less.lint.important": "warning",
+  "scss.hover.documentation": true,
+  "scss.lint.important": "warning",
+  "html.hover.documentation": true,
+  "markdownlint.config": {
+    "default": true,
+    "MD001": false,
+    "MD010": false,
+    "MD024": false,
+    "MD025": false
+  },
 }
