@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2024-01-08
+
 ### Removed (they are removed due to the project restructuring, and moved to the package: "Essentials Extensions for Angular Developers")
 
 * Nx Console, nrwl.
@@ -99,6 +101,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/Angular-Essentials/tree/develop
+[0.2.0]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.2.0
 [0.1.6]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.6
 [0.1.5]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.5
 [0.1.4]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.4
