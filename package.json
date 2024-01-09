@@ -1,7 +1,7 @@
 {
-  "name": "angular-essentials",
+  "name": "angular-essentials-tbk",
   "displayName": "Angular-Essentials",
-  "description": "Angular essential extensions for visual studio code",
+  "description": "Angular essential extensions for visual studio code, Transbank Edition",
   "icon": "img/essentials.png",
   "galleryBanner": {
     "color": "#53595e",
