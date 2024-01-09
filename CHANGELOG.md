@@ -1,10 +1,12 @@
 # Angular Essentials - TransBank EDITION
 
-[![TBK DEVELOPERS](./img/tbk_black.svg)](https://www.transbankdevelopers.cl/)
-
 This edition of this extension is unique, it is designed to be used in specific developments of TransBank projects.
 
-## 1.2.7 BlackCore
+[![TBK DEVELOPERS](./img/tbk_black.png)](https://www.transbankdevelopers.cl/)
+
+[![ZentaGroup](./img/essentialsmall.png)](https://zentagroup.com/)
+
+## 1.2.9 BlackCore
 
 ### Created
 
@@ -50,5 +52,3 @@ This edition of this extension is unique, it is designed to be used in specific 
   * Monokai Night Theme
   * SynthWave '84
   * Ubuntu Style Theme
-
-[![ZentaGroup](./img/essentials.png)](https://zentagroup.com/)

@@ -1,6 +1,8 @@
 # Angular Essentials - Extension Pack for Visual Studio Code
 
-[![TBK DEVELOPERS](./img/tbk_black.svg)](https://www.transbankdevelopers.cl/)
+[![TBK DEVELOPERS](./img/tbk_black.png)](https://www.transbankdevelopers.cl/)
+
+[![ZentaGroup](./img/essentialsmall.png)](https://zentagroup.com/)
 
 This extension pack for Visual Studio Code adds extensions that are convenient and useful for any Angular development.
 
@@ -323,5 +325,3 @@ This extension pack includes the following extensions:
   * Monokai Night Theme
   * SynthWave '84
   * Ubuntu Style Theme
-
-[![ZentaGroup](./img/essentials.png)](https://zentagroup.com/)
