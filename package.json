@@ -1,65 +1,65 @@
 {
-    "name": "angular-essentials",
-    "displayName": "Angular-Essentials",
-    "description": "Angular essential extensions for visual studio code",
-    "icon": "img/essentials.png",
-    "galleryBanner": {
-        "color": "#53595e",
-        "theme": "dark"
-    },
-    "license": "LICENSE.md",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Gydunhn/Angular-Essentials.git"
-    },
-    "keywords": [
-        "VSC",
-        "VSCode",
-        "Visual Studio",
-        "Visual Studio Code",
-        "VSC Essentials",
-        "Essentials",
-        "Esenciales",
-        "Essenciais",
-        "Essentiel",
-        "Essenziali",
-        "Essentielles",
-        "Esencajoj",
-        "Javascript",
-        "Lint",
-        "ESLint",
-        "TypeScript",
-        "Angular",
-        "Angular Language Service",
-        "angular2-inline",
-        "Ionic",
-        "Capacitor",
-        "Firefox",
-        "Debugger for Firefox",
-        "AFP",
-        "PLV",
-        "AFP PlanVital",
-        "GENERALI"
-    ],
-    "version": "1.0.4",
-    "publisher": "Gydunhn",
-    "engines": {
-        "vscode": "^1.35.0"
-    },
-    "categories": [
-        "Extension Packs"
-    ],
-    "extensionPack": [
-        "yzhang.markdown-all-in-one",
-        "DavidAnson.vscode-markdownlint",
-        "bierner.markdown-emoji",
-        "DotJoshJohnson.xml",
-        "lacroixdavid1.vscode-format-context-menu",
-        "Gruntfuggly.todo-tree",
-        "aaron-bond.better-comments",
-        "dbaeumer.vscode-eslint",
-        "Angular.ng-template",
-        "firefox-devtools.vscode-firefox-debug",
-        "eamodio.gitlens"
-    ]
+  "name": "angular-essentials-plv",
+  "displayName": "Angular-Essentials",
+  "description": "Angular essential extensions for visual studio code, PLV EDITION",
+  "icon": "img/essentials.png",
+  "galleryBanner": {
+    "color": "#53595e",
+    "theme": "dark"
+  },
+  "license": "LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gydunhn/Angular-Essentials.git"
+  },
+  "keywords": [
+    "VSC",
+    "VSCode",
+    "Visual Studio",
+    "Visual Studio Code",
+    "VSC Essentials",
+    "Essentials",
+    "Esenciales",
+    "Essenciais",
+    "Essentiel",
+    "Essenziali",
+    "Essentielles",
+    "Esencajoj",
+    "Javascript",
+    "Lint",
+    "ESLint",
+    "TypeScript",
+    "Angular",
+    "Angular Language Service",
+    "angular2-inline",
+    "Ionic",
+    "Capacitor",
+    "Firefox",
+    "Debugger for Firefox",
+    "AFP",
+    "PLV",
+    "AFP PlanVital",
+    "GENERALI"
+  ],
+  "version": "1.0.4",
+  "publisher": "Gydunhn",
+  "engines": {
+    "vscode": "^1.35.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "yzhang.markdown-all-in-one",
+    "DavidAnson.vscode-markdownlint",
+    "bierner.markdown-emoji",
+    "DotJoshJohnson.xml",
+    "lacroixdavid1.vscode-format-context-menu",
+    "Gruntfuggly.todo-tree",
+    "aaron-bond.better-comments",
+    "dbaeumer.vscode-eslint",
+    "Angular.ng-template",
+    "firefox-devtools.vscode-firefox-debug",
+    "eamodio.gitlens"
+  ]
 }
