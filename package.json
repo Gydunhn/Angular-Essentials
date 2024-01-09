@@ -66,7 +66,7 @@
     "Gydunhn",
     "Elite"
   ],
-  "version": "0.2.0",
+  "version": "1.2.7",
   "publisher": "Gydunhn",
   "engines": {
     "vscode": "^1.35.0"
@@ -75,10 +75,19 @@
     "Extension Packs"
   ],
   "extensionPack": [
-    "Gydunhn.typescript-essentials",
     "Angular.ng-template",
     "johnpapa.pwa-tools",
+    "johnpapa.Angular2",
     "natewallace.angular2-inline",
-    "cyrilletuzi.angular-schematics"
+    "cyrilletuzi.angular-schematics",
+    "formulahendry.auto-complete-tag",
+    "pkosta2006.rxjs-snippets",
+    "Gydunhn.vsc-essentials",
+    "Gydunhn.typescript-essentials",
+    "PKief.material-icon-theme",
+    "PKief.material-product-icons",
+    "fabiospampinato.vscode-monokai-night",
+    "RobbOwen.synthwave-vscode",
+    "formulahendry.theme-ubuntu-style"
   ]
 }
