@@ -1,116 +1,54 @@
-# Change Log
+# Angular Essentials - Barracks.gg EDITION 
 
-All notable changes to this Extension Pack for Visual Studio Code will be documented in this file.
+This edition of this extension is unique, it is designed to be used in specific developments of Barracks.gg projects.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+[![Barracks.GG](./img/barracks.jpg)](https://www.barracks.gg/)  
 
-## [Unreleased]
+[![ZentaGroup SpA](./img/essentialsmall.png)](https://zentagroup.com/)  
 
-## [0.2.0] - 2024-01-08
+## 1.4.7 SonomaCore
 
-### Removed (they are removed due to the project restructuring, and moved to the package: "Essentials Extensions for Angular Developers")
+### Created
 
-* Nx Console, nrwl.
-* Prettier - Code formatter, prettier.io.
-* mysql-inline-decorator, odubuc.
-
-## [0.1.6] - 2023-02-01
-
-### Re-Added
-
-* ReadMe Badges
-
-## [0.1.5] - 2023-01-10
-
-### Added
-
-* Angular Schematics Extension
-
-### Removed
-
-* ReadMe Badges
-
-## [0.1.4] - 2022-10-14
-
-### Removed
-
-* Debugger for Chrome, This extension has been deprecated as Visual Studio Code now has a bundled JavaScript Debugger that covers the same functionality. You can safely un-install this extension and you will still be able to have the functionality you need.
-* Debugger for Edge, Deprecated.
-* Javascript-Essentials, Since it is now contained by the Typescript-Essentials extension. Refactoring.
-* Debugger for Firefox, Since all this time it was contained by the Javascript-Essentials extension. Refactoring.
-
-## [0.1.3] - 2020-10-06
-
-### Changed
-
-* Compatibility with vsCode 1.35.0 x32
-
-## [0.1.2] - 2020-08-28
-
-### Changed
-
-* the KeyWords were modified
-
-### Added
-
-* a Prettier Config, in the Readme File.
-
-## [0.1.1] - 2020-04-29
-
-### Fixed
-
-* Change Log Tags Links
-
-## [0.1.0] - 2020-04-29
-
-### Added
-
-* mysql-inline-decorator Extension.
-
-## [0.0.5] - 2020-04-27
-
-### Fixed
-
-* Readme Angular Project Word.
-* Changelog Order.
-
-## [0.0.4] - 2020-04-27
-
-### Added
-
-* Readme Star Rating Badge.
-
-## [0.0.3] - 2020-04-27
-
-### Fixed
-
-* Package Repository Link.
-
-## [0.0.2] - 2020-04-27
-
-### Fixed
-
-* Changelog Repository Link.
-
-## [0.0.1] - 2020-04-27
-
-### Added
-
-* Initial release.
-  * Created extension pack.
-
-[Unreleased]: https://github.com/Gydunhn/Angular-Essentials/tree/develop
-[0.2.0]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.2.0
-[0.1.6]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.6
-[0.1.5]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.5
-[0.1.4]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.4
-[0.1.3]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.3
-[0.1.2]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.2
-[0.1.1]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.1
-[0.1.0]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.0
-[0.0.5]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.0.5
-[0.0.4]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.0.4
-[0.0.3]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.0.3
-[0.0.2]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.0.2
-[0.0.1]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.0.1
+* The following extensions are included in this package:
+  * Angular Language Service
+  * PWA Tools
+  * Angular Snippets
+  * angular2-inline
+  * Angular Schematics
+  * Auto Complete Tag
+  * rxjs-snippets
+  * Typescript-Essentials:
+    * TypeScript Hero
+    * TypeScript Importer
+    * Javascript-Essentials:
+      * ESLint
+      * npm Intellisense
+      * Visual Studio IntelliCode
+      * JavaScript (ES6) code snippets
+      * Debugger for Firefox
+      * Path Intellisense
+      * Formatting Toggle
+  * VSC-Essentials:
+    * Markdown All in One
+    * markdownlint
+    * XML Tools
+    * Rainbow CSV
+    * SVG Previewer
+    * Color Highlight
+    * Todo Tree
+    * Terminal in Status Bar
+    * indent-rainbow
+    * Better Comments
+    * Bookmarks
+    * Git Graph
+    * GitLens — Git supercharged
+    * Git History
+    * gitignore
+    * CodeSnap
+    * :emojisense:
+  * Material Icon Theme
+  * Material Product Icons
+  * Monokai Night Theme
+  * SynthWave '84
+  * Ubuntu Style Theme

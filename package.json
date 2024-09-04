@@ -1,7 +1,7 @@
 {
-  "name": "angular-essentials",
-  "displayName": "Angular-Essentials",
-  "description": "Angular essential extensions for visual studio code",
+  "name": "angular-essentials-barracks",
+  "displayName": "Angular-Essentials-Barracks-Edition",
+  "description": "Angular essential extensions for visual studio code, Barracks.gg Edition",
   "icon": "img/essentials.png",
   "galleryBanner": {
     "color": "#53595e",
@@ -43,8 +43,6 @@
     "Javascript-Essentials",
     "TypeScript",
     "TSLint",
-    "Hero",
-    "TypeScript Hero",
     "TypeScript Importer",
     "Typescript-Essentials",
     "Angular",
@@ -59,14 +57,13 @@
     "Mozilla",
     "Debugger for Firefox",
     "Edge",
-    "Debugger for Microsoft Edge",
     "Chrome",
     "Debugger for Chrome",
     "Essentials",
     "Gydunhn",
     "Elite"
   ],
-  "version": "0.2.0",
+  "version": "1.4.7",
   "publisher": "Gydunhn",
   "engines": {
     "vscode": "^1.35.0"
@@ -75,10 +72,19 @@
     "Extension Packs"
   ],
   "extensionPack": [
-    "Gydunhn.typescript-essentials",
     "Angular.ng-template",
     "johnpapa.pwa-tools",
+    "johnpapa.Angular2",
     "natewallace.angular2-inline",
-    "cyrilletuzi.angular-schematics"
+    "cyrilletuzi.angular-schematics",
+    "formulahendry.auto-complete-tag",
+    "pkosta2006.rxjs-snippets",
+    "Gydunhn.vsc-essentials",
+    "Gydunhn.typescript-essentials",
+    "PKief.material-icon-theme",
+    "PKief.material-product-icons",
+    "fabiospampinato.vscode-monokai-night",
+    "RobbOwen.synthwave-vscode",
+    "formulahendry.theme-ubuntu-style"
   ]
 }
