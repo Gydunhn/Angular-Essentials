@@ -44,7 +44,6 @@
     "TypeScript",
     "TSLint",
     "Hero",
-    "TypeScript Hero",
     "TypeScript Importer",
     "Typescript-Essentials",
     "Angular",
@@ -75,6 +74,7 @@
     "Extension Packs"
   ],
   "extensionPack": [
+    "Gydunhn.vsc-essentials",
     "Gydunhn.typescript-essentials",
     "Angular.ng-template",
     "johnpapa.pwa-tools",
