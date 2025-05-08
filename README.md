@@ -1,12 +1,12 @@
 # Angular Essentials - Extension Pack for Visual Studio Code
 
-[![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/Gydunhn.angular-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.angular-essentials) [![Installs](https://flat.badgen.net/vs-marketplace/i/Gydunhn.angular-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.angular-essentials) [![Downloads](https://flat.badgen.net/vs-marketplace/d/Gydunhn.angular-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.angular-essentials) [![Rating](https://flat.badgen.net/vs-marketplace/rating/Gydunhn.angular-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.angular-essentials)
+This extension pack for Visual Studio Code adds extensions that are convenient and useful for any development (regardless of language). I reserve the right to update the content of the extension pack at my own discretion.
 
-This extension pack for Visual Studio Code adds extensions that are useful for Angular projects. I reserve the right to update the extensions pack contents up to my own discretion. This extension is for my personal use, I think it's great if it works for other people too.
+This **CORE** version of the extension pack is for a series of very specific projects in which I am currently involved; projects with multiple repositories that share the same stack of technologies transversally on PLV.
 
 ## Reasons
 
-The [Angular Essentials extension pack] was made to automate and standardize the installation phase of the essential Angular extensions for Visual Studio Code every time a new member joins the team, or one of them restores a laptop, or exchanges it for a new one.
+The AFP PlanVital core Extensions was made to automate and standardize the setup phase of the development environment for Visual Studio Code, to have the same set of extensions, use the same id settings and file format everyone works on together.
 
 See the [CHANGELOG](CHANGELOG.md) for the latest changes
 
@@ -25,6 +25,3 @@ This extension pack includes the following extensions:
 | PWA Tools                | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/johnpapa.pwa-tools?color=blue)](https://marketplace.visualstudio.com/items?itemName=johnpapa.pwa-tools) [![Installs](https://flat.badgen.net/vs-marketplace/i/johnpapa.pwa-tools?color=blue)](https://marketplace.visualstudio.com/items?itemName=johnpapa.pwa-tools) [![Rating](https://flat.badgen.net/vs-marketplace/rating/johnpapa.pwa-tools?color=blue)](https://marketplace.visualstudio.com/items?itemName=johnpapa.pwa-tools)                                                                         |
 | Typescript-Essentials    | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/Gydunhn.typescript-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.typescript-essentials) [![Installs](https://flat.badgen.net/vs-marketplace/i/Gydunhn.typescript-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.typescript-essentials) [![Rating](https://flat.badgen.net/vs-marketplace/rating/Gydunhn.typescript-essentials?color=blue)](https://marketplace.visualstudio.com/items?itemName=Gydunhn.typescript-essentials)       |
 | Angular Schematics       | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/cyrilletuzi.angular-schematics?color=blue)](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics) [![Installs](https://flat.badgen.net/vs-marketplace/i/cyrilletuzi.angular-schematics?color=blue)](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics) [![Rating](https://flat.badgen.net/vs-marketplace/rating/cyrilletuzi.angular-schematics?color=blue)](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics) |
-
-[VSC-Essentials]: https://github.com/Gydunhn/VSC-Essentials
-[Angular Essentials extension pack]: https://marketplace.visualstudio.com/items?itemName=Gydunhn.angular-essentials
