@@ -1,6 +1,15 @@
+/**
+ * * ZentaGroup's Essential Settings
+ */
 {
   // VSCode Settings
   "extensions.ignoreRecommendations": true,
+  "scm.experimental.showHistoryGraph": true,
+  "editor.fontLigatures": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.guides.highlightActiveBracketPair": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.guides.bracketPairs": "active",
@@ -17,16 +26,6 @@
     140
   ],
   "editor.formatOnSave": true,
-  "eslint.enable": true,
-  "eslint.format.enable": false,
-  "eslint.codeAction.showDocumentation": {
-    "enable": true
-  },
-  "eslint.codeAction.disableRuleComment": {
-    "enable": true,
-    "location": "separateLine",
-    "commentStyle": "line"
-  },
   // Code & Formatter Settings
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
@@ -84,4 +83,172 @@
     "MD024": false,
     "MD025": false
   },
+  // Extensions Settings
+  "todo-tree.tree.showCountsInTree": true,
+  "todo-tree.general.statusBar": "top three",
+  "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+  "todo-tree.general.tags": [
+    "TODO",
+    "FIXME",
+    "FIXIT",
+    "FIX",
+    "BUG",
+    "HACK",
+    "UNDONE",
+  ],
+  "todo-tree.general.tagGroups": {
+    "FIXME": [
+      "FIXME",
+      "FIXIT",
+      "FIX",
+      "BUG",
+    ]
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "gutterIcon": true,
+      "icon": "tasklist",
+      "iconColour": "#FF9E29",
+      "type": "tag",
+      "background": "#CF7200",
+      "foreground": "#FFFFFF",
+      "fontWeight": "bold"
+    },
+    "FIXME": {
+      "gutterIcon": true,
+      "icon": "tools",
+      "iconColour": "#00BD00",
+      "type": "tag",
+      "background": "#008000",
+      "foreground": "#ffffff",
+      "fontWeight": "bold"
+    },
+    "UNDONE": {
+      "gutterIcon": true,
+      "icon": "history",
+      "iconColour": "#FFFF00",
+      "type": "tag",
+      "background": "#FFFF00",
+      "foreground": "#141D1E",
+      "fontWeight": "bold"
+    },
+    "HACK": {
+      "gutterIcon": true,
+      "icon": "code",
+      "iconColour": "#FF30C8",
+      "type": "tag",
+      "background": "#141D1E",
+      "foreground": "#fa64d2",
+      "fontWeight": "bold"
+    }
+  },
+  "better-comments.multilineComments": true,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "fixme",
+      "color": "#008000",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "fixit",
+      "color": "#008000",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "fix",
+      "color": "#008000",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "bug",
+      "color": "#008000",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "gitlens.statusBar.enabled": true,
+  "gitlens.blame.avatars": true,
+  "gitlens.hovers.avatars": true,
+  "gitlens.hovers.avatarSize": 64,
+  "gitlens.hovers.changesDiff": "hunk",
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.folders.associations": {
+    "directives": "Prisma",
+    "interceptors": "Routes",
+    "xml": "Views",
+    "background": "Images",
+    "favicon": "Images",
+    "png": "Images",
+    "jpeg": "Images",
+    "jpg": "Images",
+  },
+  "material-icon-theme.files.associations": {
+    "*.provider.ts": "Angular-service"
+  },
+  "svg.preview.autoOpen": true,
+  "svg.preview.transparencyGrid": true,
+  "svg.preview.boundingBox": true
 }
+/**
+ * * ZentaGroup's Essential Settings
+ */
