@@ -1,12 +1,12 @@
-# Angular Essentials - Barracks.gg EDITION 
+# AFP PlanVital EDITION
 
-This edition of this extension is unique, it is designed to be used in specific developments of Barracks.gg projects.
+This edition of this extension is unique, it is designed to be used in specific developments of AFP PlanVital projects.
 
-[![Barracks.GG](./img/barracks.jpg)](https://www.barracks.gg/)  
+## 1.0.4-Core
 
-[![ZentaGroup SpA](./img/essentialsmall.png)](https://zentagroup.com/)  
+### Created
 
-## 1.4.7 SonomaCore
+## 1.2.9 BlackCore
 
 ### Created
 

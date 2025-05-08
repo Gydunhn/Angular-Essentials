@@ -1,16 +1,16 @@
 # Angular Essentials - Extension Pack for Visual Studio Code
 
-[![Barracks.GG](./img/barracks.jpg)](https://www.barracks.gg/)   
+This extension pack for Visual Studio Code adds extensions that are convenient and useful for any development (regardless of language). I reserve the right to update the content of the extension pack at my own discretion.
 
-[![ZentaGroup](./img/essentialsmall.png)](https://zentagroup.com/)
+This **CORE** version of the extension pack is for a series of very specific projects in which I am currently involved; projects with multiple repositories that share the same stack of technologies transversally on PLV.
 
 This extension pack for Visual Studio Code adds extensions that are convenient and useful for any Angular development.
 
-This **SonomaCore** version of the extension pack is for a series of specific projects in Barracks that share the same technology stack transversally.
+This **BlackCore** version of the extension pack is for a series of specific projects in TransBank that share the same technology stack transversally.
 
 ## Reasons
 
-This extension pack was made to automate and standardize the setup phase of the development environment for Visual Studio Code, to have the same set of extensions, use the same id settings and file format everyone works on together.
+The AFP PlanVital core Extensions was made to automate and standardize the setup phase of the development environment for Visual Studio Code, to have the same set of extensions, use the same id settings and file format everyone works on together.
 
 See the [CHANGELOG](CHANGELOG.md) for the latest changes
 
@@ -25,12 +25,6 @@ It is imperative that the settings be added to settings.json, inside the ".vscod
 {
   // VSCode Settings
   "extensions.ignoreRecommendations": true,
-  "scm.experimental.showHistoryGraph": true,
-  "editor.fontLigatures": true,
-  "editor.stickyScroll.enabled": true,
-  "editor.cursorBlinking": "expand",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.guides.highlightActiveBracketPair": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.guides.bracketPairs": "active",
@@ -47,6 +41,16 @@ It is imperative that the settings be added to settings.json, inside the ".vscod
     140
   ],
   "editor.formatOnSave": true,
+  "eslint.enable": true,
+  "eslint.format.enable": false,
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.codeAction.disableRuleComment": {
+    "enable": true,
+    "location": "separateLine",
+    "commentStyle": "line"
+  },
   // Code & Formatter Settings
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
@@ -252,25 +256,23 @@ It is imperative that the settings be added to settings.json, inside the ".vscod
   "gitlens.hovers.avatars": true,
   "gitlens.hovers.avatarSize": 64,
   "gitlens.hovers.changesDiff": "hunk",
-  "gitlens.blame.compact": true,
-  "gitlens.heatmap.locations": [
-    "gutter",
-    "overview"
-  ],
-  "gitlens.graph.showRemoteNames": true,
+  "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.folders.associations": {
-    "directives": "prisma",
-    "interceptors": "routes",
-    "xml": "views",
-    "background": "images",
-    "favicon": "images",
-    "png": "images",
-    "jpeg": "images",
-    "jpg": "images",
+    "directives": "Prisma",
+    "interceptors": "Routes",
+    "xml": "Views",
+    "background": "Images",
+    "favicon": "Images",
+    "png": "Images",
+    "jpeg": "Images",
+    "jpg": "Images",
   },
   "material-icon-theme.files.associations": {
     "*.provider.ts": "Angular-service"
-  }
+  },
+  "svg.preview.autoOpen": true,
+  "svg.preview.transparencyGrid": true,
+  "svg.preview.boundingBox": true
 }
 /**
  * * ZentaGroup's Essential Settings

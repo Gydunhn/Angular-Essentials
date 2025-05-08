@@ -1,5 +1,5 @@
 /**
- * * ZentaGroup's Essential Settings 
+ * * ZentaGroup's Essential Settings
  */
 {
   // VSCode Settings
@@ -231,25 +231,23 @@
   "gitlens.hovers.avatars": true,
   "gitlens.hovers.avatarSize": 64,
   "gitlens.hovers.changesDiff": "hunk",
-  "gitlens.blame.compact": true,
-  "gitlens.heatmap.locations": [
-    "gutter",
-    "overview"
-  ],
-  "gitlens.graph.showRemoteNames": true,
+  "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.folders.associations": {
-    "directives": "prisma",
-    "interceptors": "routes",
-    "xml": "views",
-    "background": "images",
-    "favicon": "images",
-    "png": "images",
-    "jpeg": "images",
-    "jpg": "images",
+    "directives": "Prisma",
+    "interceptors": "Routes",
+    "xml": "Views",
+    "background": "Images",
+    "favicon": "Images",
+    "png": "Images",
+    "jpeg": "Images",
+    "jpg": "Images",
   },
   "material-icon-theme.files.associations": {
     "*.provider.ts": "Angular-service"
-  }
+  },
+  "svg.preview.autoOpen": true,
+  "svg.preview.transparencyGrid": true,
+  "svg.preview.boundingBox": true
 }
 /**
  * * ZentaGroup's Essential Settings
