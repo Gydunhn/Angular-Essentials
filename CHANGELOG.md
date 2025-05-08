@@ -28,7 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Notes
 
-This project has been restructured as part of a comprehensive reorganization of all Essentials extension packs related to web development. In the future, additional packs for other development areas will also be included in this reorganization. As part of this restructuring process, the Nx Console extension (nrwl.angular-console) has been re-added to the package, after being previously removed in version 0.2.0. 
+This project has been restructured as part of a comprehensive reorganization of all Essentials extension packs related to web development. In the future, additional packs for other development areas will also be included in this reorganization. As part of this restructuring process, the Nx Console extension (nrwl.angular-console) has been re-added to the package, after being previously removed in version 0.2.0.
 
 ## [0.2.0] - 2024-01-08
 
