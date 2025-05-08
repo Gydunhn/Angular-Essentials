@@ -14,6 +14,7 @@
   },
   "keywords": [
     "VSC",
+    "Code",
     "VSCode",
     "Visual Studio",
     "Visual Studio Code",
@@ -29,6 +30,10 @@
     "골자",
     "अत्यावश्यकम्",
     "ملزومات",
+    "Frontend",
+    "Web",
+    "Developer",
+    "Web Developer",
     "Javascript",
     "Lint",
     "ESLint",
@@ -58,15 +63,13 @@
     "Firefox",
     "Mozilla",
     "Debugger for Firefox",
-    "Edge",
-    "Debugger for Microsoft Edge",
-    "Chrome",
-    "Debugger for Chrome",
-    "Essentials",
+    "RxJS",
+    "NgRx",
+    "Snippets",
     "Gydunhn",
     "Elite"
   ],
-  "version": "0.2.0",
+  "version": "0.3.0",
   "publisher": "Gydunhn",
   "engines": {
     "vscode": "^1.35.0"
@@ -79,6 +82,11 @@
     "Angular.ng-template",
     "johnpapa.pwa-tools",
     "natewallace.angular2-inline",
-    "cyrilletuzi.angular-schematics"
+    "cyrilletuzi.angular-schematics",
+    "johnpapa.Angular2",
+    "nrwl.angular-console",
+    "pkosta2006.rxjs-snippets",
+    "hardikpthv.NgRxSnippets",
+    "Gydunhn.vsc-essentials"
   ]
 }

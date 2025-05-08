@@ -7,11 +7,34 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+# Change Log
+
+All notable changes to this Extension Pack for Visual Studio Code will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [0.3.0] - 2025-05-07
+
+### Added
+
+* Angular Snippets, By John Papa - Provides snippets for TypeScript, HTML, ngRx, Angular Material and tests.
+* Nx Console, By nx.dev - A graphical interface for Angular CLI.
+* RxJS Snippets, By prashant - Snippets for working with RxJS.
+* NgRx Snippets, By Hardik Pithva - NgRx with TypeScript snippets for Angular Apps.
+* VSC-Essentials, By Gydunhn - The essential extension pack for Visual Studio Code.
+
+### Notes
+
+This project has been restructured as part of a comprehensive reorganization of all Essentials extension packs related to web development. In the future, additional packs for other development areas will also be included in this reorganization. As part of this restructuring process, the Nx Console extension (nrwl.angular-console) has been re-added to the package, after being previously removed in version 0.2.0. 
+
 ## [0.2.0] - 2024-01-08
 
 ### Removed (they are removed due to the project restructuring, and moved to the package: "Essentials Extensions for Angular Developers")
 
-* Nx Console, nrwl.
+* Nx Console, nrwl (nx.dev).
 * Prettier - Code formatter, prettier.io.
 * mysql-inline-decorator, odubuc.
 
@@ -101,6 +124,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/Angular-Essentials/tree/develop
+[0.3.0]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.3.0
 [0.2.0]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.2.0
 [0.1.6]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.6
 [0.1.5]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.5
