@@ -1,7 +1,7 @@
 {
-  "name": "angular-essentials-tbk",
-  "displayName": "Angular-Essentials-TBK-Edition",
-  "description": "Angular essential extensions for visual studio code, Transbank Edition",
+  "name": "angular-essentials-barracks",
+  "displayName": "Angular-Essentials-Barracks-Edition",
+  "description": "Angular essential extensions for visual studio code, Barracks.gg Edition",
   "icon": "img/essentials.png",
   "galleryBanner": {
     "color": "#53595e",
@@ -43,8 +43,6 @@
     "Javascript-Essentials",
     "TypeScript",
     "TSLint",
-    "Hero",
-    "TypeScript Hero",
     "TypeScript Importer",
     "Typescript-Essentials",
     "Angular",
@@ -59,14 +57,13 @@
     "Mozilla",
     "Debugger for Firefox",
     "Edge",
-    "Debugger for Microsoft Edge",
     "Chrome",
     "Debugger for Chrome",
     "Essentials",
     "Gydunhn",
     "Elite"
   ],
-  "version": "1.3.0",
+  "version": "1.4.7",
   "publisher": "Gydunhn",
   "engines": {
     "vscode": "^1.35.0"
