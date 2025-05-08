@@ -1,10 +1,10 @@
-# Angular Essentials - TransBank EDITION
+# AFP PlanVital EDITION
 
-This edition of this extension is unique, it is designed to be used in specific developments of TransBank projects.
+This edition of this extension is unique, it is designed to be used in specific developments of AFP PlanVital projects.
 
-[![TBK DEVELOPERS](./img/tbk_black.png)](https://www.transbankdevelopers.cl/)
+## 1.0.4-Core
 
-[![ZentaGroup](./img/essentialsmall.png)](https://zentagroup.com/)
+### Created
 
 ## 1.2.9 BlackCore
 

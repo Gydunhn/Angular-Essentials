@@ -1,18 +1,6 @@
 {
-  "recommendations": [
-    "Angular.ng-template",
-    "johnpapa.pwa-tools",
-    "johnpapa.Angular2",
-    "natewallace.angular2-inline",
-    "cyrilletuzi.angular-schematics",
-    "formulahendry.auto-complete-tag",
-    "pkosta2006.rxjs-snippets",
-    "Gydunhn.vsc-essentials",
-    "Gydunhn.typescript-essentials",
-    "PKief.material-icon-theme",
-    "PKief.material-product-icons",
-    "fabiospampinato.vscode-monokai-night",
-    "RobbOwen.synthwave-vscode",
-    "formulahendry.theme-ubuntu-style"
-  ]
+	"recommendations": [
+		"Gydunhn.vsc-essentials",
+		"Gydunhn.vsc-essentials-themes"
+	]
 }

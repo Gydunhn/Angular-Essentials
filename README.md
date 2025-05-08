@@ -1,8 +1,8 @@
 # Angular Essentials - Extension Pack for Visual Studio Code
 
-[![TBK DEVELOPERS](./img/tbk_black.png)](https://www.transbankdevelopers.cl/)
+This extension pack for Visual Studio Code adds extensions that are convenient and useful for any development (regardless of language). I reserve the right to update the content of the extension pack at my own discretion.
 
-[![ZentaGroup](./img/essentialsmall.png)](https://zentagroup.com/)
+This **CORE** version of the extension pack is for a series of very specific projects in which I am currently involved; projects with multiple repositories that share the same stack of technologies transversally on PLV.
 
 This extension pack for Visual Studio Code adds extensions that are convenient and useful for any Angular development.
 
@@ -10,7 +10,7 @@ This **BlackCore** version of the extension pack is for a series of specific pro
 
 ## Reasons
 
-This extension pack was made to automate and standardize the setup phase of the development environment for Visual Studio Code, to have the same set of extensions, use the same id settings and file format everyone works on together.
+The AFP PlanVital core Extensions was made to automate and standardize the setup phase of the development environment for Visual Studio Code, to have the same set of extensions, use the same id settings and file format everyone works on together.
 
 See the [CHANGELOG](CHANGELOG.md) for the latest changes
 
