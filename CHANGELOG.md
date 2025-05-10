@@ -16,11 +16,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2025-05-09
+
+### Removed
+
+* Angular Snippets, By John Papa. (This extension is being moved to another package, based on an ongoing restructuring)
+
 ## [0.3.0] - 2025-05-07
 
 ### Added
 
-* Angular Snippets, By John Papa - Provides snippets for TypeScript, HTML, ngRx, Angular Material and tests.
+* Angular Snippets, By John Papa.
 * Nx Console, By nx.dev - A graphical interface for Angular CLI.
 * RxJS Snippets, By prashant - Snippets for working with RxJS.
 * NgRx Snippets, By Hardik Pithva - NgRx with TypeScript snippets for Angular Apps.
@@ -124,6 +130,7 @@ This project has been restructured as part of a comprehensive reorganization of 
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/Angular-Essentials/tree/develop
+[1.0.0]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/1.0.0
 [0.3.0]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.3.0
 [0.2.0]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.2.0
 [0.1.6]: https://github.com/Gydunhn/Angular-Essentials/releases/tag/0.1.6
