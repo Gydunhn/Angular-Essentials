@@ -56,6 +56,8 @@
     "Angular Language Service",
     "inline",
     "angular2-inline",
+    "SPA",
+    "PWA",
     "Nx",
     "Console",
     "Nx Console",
@@ -69,7 +71,7 @@
     "Gydunhn",
     "Elite"
   ],
-  "version": "0.3.0",
+  "version": "1.0.0",
   "publisher": "Gydunhn",
   "engines": {
     "vscode": "^1.35.0"
@@ -83,7 +85,6 @@
     "johnpapa.pwa-tools",
     "natewallace.angular2-inline",
     "cyrilletuzi.angular-schematics",
-    "johnpapa.Angular2",
     "nrwl.angular-console",
     "pkosta2006.rxjs-snippets",
     "hardikpthv.NgRxSnippets",
